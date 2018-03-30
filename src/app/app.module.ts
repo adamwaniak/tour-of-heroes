@@ -8,6 +8,7 @@ import { HeroesComponent } from './hero/heroes/heroes.component';
 import { HeroDetailComponent } from './hero/hero-detail/hero-detail.component';
 import {HeroService} from "./hero/hero.service";
 import { MessagesComponent } from './messages/messages.component';
+import { MessageService } from './messages/message.service';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { MessagesComponent } from './messages/messages.component';
   ],
   providers: [
     HeroService,
+    MessageService,
   ],
   bootstrap: [AppComponent]
 })
